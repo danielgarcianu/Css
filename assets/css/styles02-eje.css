@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(164, 181, 196);
+}
+h1{
+    font-size: 50px;
+    color: red;
+    text-align: right;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40;
+}
+.naranjan{
+    color: orange;
+    font-weight: bold;
+}
+.naranja{
+    color: orange;
+}
+.verde{
+    background-color: white;
+    color: green;
+}
+#autor{
+    text-align: center;
+}
+.primerlinea{
+    text-indent: 20px;
+}

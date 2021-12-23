@@ -1,0 +1,33 @@
+
+            .encabezado {
+                font-size: 72px; /*comentario en CSS tamaño de letra unidaddes px, %, em, rem*/
+                color: rgb(255, 199, 194);/*color de la letra*/
+                background-color: rgb(161, 161, 161);/*aplica un color de fondo. formatos #hexadecimal, hsl*/
+                text-align: center;/*alinear texto*/
+                text-transform: uppercase;/*cambia el texto a mayusculas*/
+            }
+            body{
+                background-color: rgb(255, 199, 199);
+            }
+            .texto{
+                color: white;
+                background-color: black;
+            }
+            #texto{
+                font-style: italic;/*cambia el texto a cursivas*/
+            }
+            p{
+                color:white;
+                background-color: dimgray;
+            }
+
+            p{
+                color: yellow;
+                background-color: teal;
+            }
+            
+/*un id se llama con #yelnombre de id*/
+/*hoja de estilo en cascada el ultimo estilo que se aplica sustituye a los primeros entre mas especifico sea el selector mas predomina */
+/*etiqueta CSS, selector a donde voy a aplicar el estilo font-size para tamaño de letra 72px las unidades de medida van unidas al valor numerico*/
+/*selector de etiquetas indico que todos los h1 tendrían ese estilo para evitar eso se usan las class*/
+/*selector de clase ejemplo .encabezado se aplicara a todos los elementos que tengan el mismo selector de clase ej <h1 class="encabezado"> y <h3 class="encabezado"> lo aplica a ambos */
