@@ -1,0 +1,35 @@
+body{
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    height: 600px;
+    border: 3px solid purple;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.rojo{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+ /*    align-self: flex-end; */
+}
+.verde{
+    background-color: green;
+   /*  align-self: center; */
+}
+.amarillo{
+    background-color: yellow;
+}
+/*justify-content nos dice como alinear los elementos  de manera horixzontal center centra space-around da un espacio a la derecha e izquierda ;  space between espacio entre los elementos; space-evenly se aplica a la clas e padre */
+/* align-items posisionamiento vertical arriba centro abajo center centrar: flex-end abajo: base-line arriba: flex-start arriba: se aplica a la clase padre*/
+/*align-self solo afecta un elemento se pone en la clase hijo*/
+/*si los elementos salen de el espacio del contenedor los va mandado a la parte de abajo flex-wrap: wrap; se aplica a la clase padre  */
